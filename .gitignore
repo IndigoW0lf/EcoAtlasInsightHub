@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+
+# Node modules
+frontend/node_modules/
+
+# Compiled Python files
+*.pyc
+
+# Environment-specific files
+.env
