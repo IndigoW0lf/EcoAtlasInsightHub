@@ -1,9 +1,9 @@
+# backend/app/routes.pyç
 from flask import Blueprint, jsonify
 
-main_bp = Blueprint('main', __name__)
+main_bp = Blueprint("main", __name__)
 
-@main_bp.route('/')
+
+@main_bp.route("/")
 def index():
-    return jsonify({'message': 'Welcome to the backend!'})
-
-# add more routes as needed
+    return jsonify({"message": "Welcome to the backend!"})
